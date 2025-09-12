@@ -7,22 +7,22 @@ int main() {
     printf("--- CAIXA REGISTRADORA ---\n");
     printf("Digite o preco de cada item (digite 0 para finalizar):\n");
 
-    while (1) { // Loop infinito
+    while (1) { 
         printf("Preco do item: ");
         scanf("%f", &preco);
 
-        // Condição de parada
+        
         if (preco == 0) {
             break;
         }
 
-        // Validação de preço negativo
+        
         if (preco < 0) {
             printf("Preco invalido. O valor sera ignorado.\n");
-            continue; // Pula para a próxima iteração do loop
+            continue; 
         }
 
-        // Acumula os valores válidos
+        
         total += preco;
         quantidadeItens++;
     }

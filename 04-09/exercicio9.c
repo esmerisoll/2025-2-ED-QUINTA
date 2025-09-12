@@ -12,9 +12,9 @@ int main() {
 
     printf("Multiplos de %d no intervalo [%d, %d]:\n", k, inicio, fim);
 
-    // O loop 'for' percorre cada número do início ao fim
+    
     for (int i = inicio; i <= fim; i++) {
-        // Se o número 'i' é divisível por 'k', ele é um múltiplo
+        
         if (i % k == 0) {
             printf("%d ", i);
         }

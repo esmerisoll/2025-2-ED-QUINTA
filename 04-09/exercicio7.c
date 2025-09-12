@@ -3,7 +3,6 @@
 int main() {
     int opcao;
 
-    // O loop do-while executa o bloco pelo menos uma vez
     do {
         // Exibe o menu
         printf("\n--- MENU DE OPCOES ---\n");
@@ -13,7 +12,7 @@ int main() {
         printf("Escolha uma opcao: ");
         scanf("%d", &opcao);
 
-        // Estrutura switch para tratar a escolha do usuário
+        
         switch (opcao) {
             case 1: {
                 int num;
@@ -37,7 +36,7 @@ int main() {
                 break;
         }
 
-    } while (opcao != 0); // Repete enquanto a opção não for 0
+    } while (opcao != 0); 
 
     return 0;
 }
